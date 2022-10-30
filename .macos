@@ -48,6 +48,7 @@ echo "cloning dotfiles"
 git clone git@github.com:sitek94/dotfiles.git "${HOME}/dotfiles"
 ln -s "${HOME}/dotfiles/.gitignore_global" "${HOME}/.gitignore_global"
 ln -s "${HOME}/dotfiles/.gitconfig" "${HOME}/.gitconfig"
+ln -s "${HOME}/dotfiles/.prettierrc" "${HOME}/.prettierrc"
 
 ###############################################################################
 # General UI/UX                                                               #
